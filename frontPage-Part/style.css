@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(57, 55, 55);
+}
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    font-family: "Gilroy";
+    background-color: rgb(29, 29, 29);
+    color: white;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.card{
+   height: calc(100vh - 40px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.item{
+height: 45vmin;
+width: 80vmin;
+background-color: rgb(221, 222, 240);
+border-radius: 10px;
+padding: 20px;
+display: flex;
+gap: 4vw;
+
+}
+
+.item img{
+    height: 20vmin;
+    mix-blend-mode: multiply;
+
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    font-size: 3vmin;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.image button{
+border-radius: 5px;
+border: none;
+padding: 1vmin;
+background-color: black;
+color: white;
+cursor: pointer;
+font-size: 4vmin;
+}
+.Cart{
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.selectedNumber{
+    position: absolute;
+    top:0;
+    border-radius: 50px;
+    background-color: aliceblue;
+    width: 20px;
+    font-size: small;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 90%;
+    transform: translateX(-50%);
+    color: black;
+    
+}
